@@ -1,0 +1,55 @@
+﻿@model Ui.EStore.Models.RegisterModel
+@{
+    ViewBag.Title = "Register";
+}
+<div class="register">
+    <hgroup>
+        <h1>تسجيل مستخدم جديد</h1>
+        @*<h2>Create a new account.</h2>*@
+    </hgroup>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary()
+
+        <fieldset>
+            <legend>سجل بياناتك</legend>
+            <ol>
+                <li class="row">
+                    <label> @Html.LabelFor(m => m.UserName)</label>
+                    @Html.TextBoxFor(m => m.UserName)
+                </li>
+                <li class="row">
+                    <label> @Html.LabelFor(m => m.Email)</label>
+                    @Html.TextBoxFor(m => m.Email)
+                </li>
+                <li class="row">
+                    <label> @Html.LabelFor(m => m.Phone)</label>
+                    @Html.TextBoxFor(m => m.Phone)
+                </li>
+                <li class="row">
+                    <label>
+                        @Html.LabelFor(m => m.Password)
+                    </label>
+                    @Html.PasswordFor(m => m.Password)
+                </li>
+                <li class="row">
+                    <label>
+                        @Html.LabelFor(m => m.ConfirmPassword)
+                    </label>
+                    @Html.PasswordFor(m => m.ConfirmPassword)
+                </li>
+                <li class="row">
+                    <label> @Html.LabelFor(m => m.Address)</label>
+                    @Html.TextBoxFor(m => m.Address)
+                </li>
+            </ol>
+            <div class="row">
+                <input type="submit" value="تسجيل" />
+            </div>
+        </fieldset>
+
+    }
+
+</div>

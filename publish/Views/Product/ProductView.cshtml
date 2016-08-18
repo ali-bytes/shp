@@ -1,0 +1,668 @@
+﻿@using Domain.EStore
+@using Ui.EStore.Helpers
+
+@using Ui.EStore.Controllers
+@using Ui.EStore.Models
+@using System.Web.Mvc.Ajax
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="page-container">
+    <div class="page-container-wrap">
+        @section SeoRender{
+            <title> هنداوى : @ViewBag.title </title>
+
+
+            @{
+                var url = "";
+                for (var i = 0; i < @ViewBag.product.Name.ToString().Length; i++)
+                {
+                    if (@ViewBag.product.Name.ToString()[i] == ' ' || @ViewBag.product.Name.ToString()[i] == ':')
+                    {
+                        url += "-";
+                    }
+                    else
+                    {
+                        url += @ViewBag.product.Name.ToString()[i];
+                    }
+                    url = url.ClearString();
+                }
+            }
+
+            <meta property="og:url" content="@ViewBag.RootUrl/Product/ProductView/@ViewBag.product.Id-@url" />
+            <meta property="og:title" content="@ViewBag.product.Name " />
+            <meta property="og:description" content="@ViewBag.productFace" />
+            <meta property="og:image" content="@ViewBag.RootUrl/App_Files/@ViewBag.product.ImageUrl" />
+
+        }
+        <div id="breadcrumb" style="padding: 12px 10px 8px 10px;" style="padding: 12px 10px 8px 10px;">
+            <span></span>@*/@ViewBag.product.MainCategoryId-@ViewBag.MainCategory*@
+            <a href="/Home">الصفحة الرئيسية</a><span class="span"></span><a href="/Product/">المنتجات</a><span class="span"></span><a href="/Product/MainCategoryView/@ViewBag.product.MainCategoryId - @ViewBag.MainCategory">@ViewBag.MainCategory</a><span class="span"></span><a href="/Product/CategoryProduct/@ViewBag.product.CategoryId - @ViewBag.Category"> @ViewBag.Category</a>
+
+
+        </div>
+        <div id="product-view">
+            <div class="data" style="margin-bottom: 0px;padding-bottom: 0px;font-size:18px;padding-bottom:15px;border-bottom:1px solid #ddd;"><span style="font-family:fontawesome;color:orangered;margin-left:10px;"></span>@ViewBag.product.Name</div>
+
+            <div class="pikachoose">
+
+                <ul id="pikame">
+                    @{
+                        List<ProductImage> productImages = ProductController.ProductProductImages(@ViewBag.product.Id);
+
+
+                        foreach (var productImage in productImages)
+                        {
+                            var priceafter = ViewBag.product.SalePrice;
+                            var priceaftrerPercent = ViewBag.product.DiscountPrice;
+                            if (ViewBag.product.DiscountPrice > 0)
+                            {
+
+                                if (!ViewBag.product.DiscountPercent)
+                                {
+
+                                    priceaftrerPercent = 100 - (((ViewBag.product.SalePrice - priceaftrerPercent) / ViewBag.product.SalePrice) * 100);
+                                }
+
+                            }
+
+
+
+                            <li>
+                                <a href="#"><img src="@productImage.ImageUrl" /></a>
+                                <span>
+                                    @Html.Raw(productImage.Berif)<h3>خصم : @priceaftrerPercent.ToString("#.##")%  </h3>
+                                </span>
+                            </li>
+
+                        }
+                    }
+                </ul>
+
+            </div>
+
+
+
+            <div class="page-right">
+
+
+                <script src="~/Scripts/jquery.touchwipe.min.js"></script>
+                <script src="~/Scripts/jquery.pikachoose.min.js"></script>
+                <script src="~/Scripts/jquery.jcarousel.min.js"></script>
+                <script src="~/Scripts/js.js"></script>
+
+                <script type="text/javascript">
+
+                    $(document).ready(function () {
+
+
+
+                        $("#title1").css("background", "#3298ce");
+                        $("#title2,#title3").css("background", "#337ab7");
+                        $(".product-details").hide();
+                        $("#content1").show();
+
+                        $("#title1").click(function () {
+
+                            $("#title2,#title3,#title4").css("background", "#337ab7");
+                            $("#title1").css("background", "#3298ce");
+                            $("#content1").show();
+                            $("#content2").hide();
+                            $("#content3").hide();
+                            $("#content4").hide();
+                            return false;
+                        });
+                        $("#title2").click(function () {
+
+                            $("#title1,#title3,#title4").css("background", "#337ab7");
+                            $("#title2").css("background", "#3298ce");
+                            $("#content2").show();
+                            $("#content1").hide();
+                            $("#content3").hide();
+                            $("#content4").hide();
+                            return false;
+                        });
+                        $("#title3").click(function () {
+
+                            $("#title2,#title1,#title4").css("background", "#337ab7");
+                            $("#title3").css("background", "#3298ce");
+                            $("#content3").show();
+                            $("#content1").hide();
+                            $("#content2").hide();
+                            $("#content4").hide();
+                            return false;
+                        });
+
+                        $("#title4").click(function () {
+
+                            $("#title1,#title2,#title3").css("background", "#337ab7");
+                            $("#title4").css("background", "#3298ce");
+                            $("#content4").show();
+                            $("#content1").hide();
+                            $("#content2").hide();
+                            $("#content3").hide();
+                            return false;
+                        });
+
+
+                    });
+
+
+
+
+                    $(function () {
+
+
+                        $(".first-menu").hover(function () {
+                            $(this).find("#first-menu").stop().slideDown(0);
+
+                        }, function() {
+                            $(this).find("#first-menu").stop().slideUp(0);
+                        });
+
+                        $(".socend-menu").hover(function () {
+                            $(this).find("#socend-menu").stop().slideToggle(0);
+                            return false;
+                        });
+
+                        $(".socend-menu:last-child").mouseleave(function () {
+                            $("#menu ul li ul").stop().slideUp(0);
+                            return false;
+                        });
+
+
+                    });
+
+                    $(function () {
+                        $(".socend-menu").hover(function () {
+                            $(this).find("ul").stop().slideToggle(0);
+
+                            if ($(this).find("ul").children().length<=0) {
+                                $(this).find("ul").remove();
+                            }
+
+
+
+
+                            return false;
+                        });
+
+                        //$(".socend-menu").hover(function () {
+                        //    $(this).find("#socend-menu").stop().slideToggle(0);
+                        //    return false;
+                        //});
+
+
+
+                    });
+
+
+                    $(function () {
+
+
+                    });
+
+                    $(function () {
+                        $("#more-menu h3").click(function () {
+                            $("#more-menu-slide").stop().slideToggle();
+                            return false;
+                        });
+
+                        $(".more-menu").hover(function () {
+                            $(this).find("#sub-more-menu").stop().slideToggle(0);
+                            return false;
+                        });
+
+                    });
+
+                </script>
+
+                <script type="text/javascript">
+                    $(document).ready(
+                        function () {
+                            $("#pikame").PikaChoose();
+                        });
+                </script>
+
+                <section style="float:left ; width:500px;"></section>
+                <section>
+
+                    <div class="data" style="padding-top: 0px;">
+                        @*<input type="text" class="number" readonly="readonly" id="txt_evaluteres" value="@ViewBag.product.Evalute" />*@
+                        <div class="number" style="display:none;">@ViewBag.Rate</div>
+
+                        <script>
+
+                            var number = @ViewBag.Rate;
+                            for (i = 1; i <= number; i++) {
+                                document.write("<li>" + "<span></span>" + $(".number").val() + "</li>");
+
+                            }
+                        </script>
+
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div class="databox">
+                        <h3> السعر : <span>@ViewBag.product.SalePrice.ToString("#.##") جنيه</span></h3>
+                    </div>
+                    @{
+                        if (ViewBag.product.DiscountPrice > 0)
+                        {
+
+                            var priceafter = ViewBag.product.SalePrice;
+                            if (ViewBag.product.DiscountPrice > 0)
+                            {
+
+
+
+
+                                var priceaftrerPercent = ViewBag.product.DiscountPrice;
+                                if (ViewBag.product.DiscountPercent)
+                                {
+
+                                    priceafter = ViewBag.product.SalePrice - (priceaftrerPercent * (ViewBag.product.SalePrice) / 100);
+
+                                }
+                                else
+                                {
+                                    priceaftrerPercent = 100 - (((ViewBag.product.SalePrice - priceaftrerPercent) / ViewBag.product.SalePrice) * 100);
+
+                                    priceafter = ViewBag.product.SalePrice - (priceaftrerPercent * (ViewBag.product.SalePrice) / 100);
+                                }
+
+                            }
+
+
+
+
+
+                            <div class="databox">  <h3>بعد الخصم : <span>@priceafter.ToString("#.##") جنيه</span></h3></div>
+
+                        }
+
+                    }
+
+                    <div class="databox">
+                        <h3>
+                            الكمية المتوفرة : <span>@ViewBag.product.AvailableQuntaty</span>
+                        </h3> 
+                    </div>
+                    <div style="clear:both;"></div>
+
+
+                    @{
+                        if (Convert.ToInt32(@ViewBag.product.AvailableQuntaty) > 0)
+                        {
+                            <a id="add" href="/Home/AddToMyCart/@ViewBag.product.Id">اضف للسلة</a>
+                        }
+                        else
+                        {
+                            <p>لايوجد كميات متاحة من هذا المنتج حاليا  <br />  الرجاء التسجيل فى القائمة البريدية ليصلك كل جديد</p>
+                        }
+                    }
+
+
+                    <div class="data" style="clear: both;">
+                        <h3> نبذة عن المنتج : </h3> @Html.Raw(ViewBag.product.Berif)
+                    </div>
+
+                </section>
+            </div>
+
+
+
+            @{
+                var url1 = "";
+                for (var i = 0; i < @ViewBag.product.Name.ToString().Length; i++)
+                {
+                    if (@ViewBag.product.Name.ToString()[i] == ' ' || @ViewBag.product.Name.ToString()[i] == ':')
+                    {
+                        url1 += "-";
+                    }
+                    else
+                    {
+                        url1 += @ViewBag.product.Name.ToString()[i];
+                    }
+                    url1 = url1.ClearString();
+                }
+
+
+                <div id="div_SocialLinkByttons" class="center-block" style="text-align:right;color: #f57605; ">
+
+                    <a target="_blank" target="_blank" href="https://www.linkedin.com/cws/share?url=http://elhendawystores.com/Product/ProductView/@ViewBag.product.Id-@url1">
+                        <img src="/Images/in.png" style="width: 45px; height: 46px;" />
+                    </a>
+
+
+                    <a target="_blank" href="https://twitter.com/share" class="twitter-share-button" data-count="none">
+                        <img src="/Images/twit.png" style="width: 45px; height: 46px;" />
+                    </a>
+                    <a target="_blank" href="https://plus.google.com/share?url=http://elhendawystores.com/Product/ProductView/@ViewBag.product.Id-@url1">
+                        <img src="/Images/Google.png" style="width: 45px; height: 46px;" />
+                    </a>
+                    @*<script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>*@
+
+                    @*  *@
+                    <a target="_blank" id="share_button" title="share on facebook" href="http://www.facebook.com/sharer.php?u=http://elhendawystores.com/Product/ProductView/@ViewBag.product.Id-@url1">
+                        <img src="/Images/Facebook.png" style="width: 45px; height: 46px;" />
+                    </a>
+
+                
+                </div>  
+            }
+
+            <section id="product-details">
+                @*<h3> تفاصيل المنتج</h3>*@
+                <div class="title" id="title1">التفاصيل</div>
+                <div class="title" id="title2">اسئلة واستفسارات</div>
+                <div class="title" id="title3">الشحن والدفع</div>
+                <div class="title" id="title4"> تقييم المنتج</div>
+                <div style="clear:both;"></div>
+
+                <div class="product-details" id="content1">
+                    @Html.Raw(ViewBag.product.Details)
+                </div>
+
+
+                <div class="product-details" id="content2">
+                    @{
+                        <div class="col-md-7" ng-app="productApp" ng-controller="productCtrl">
+                            <form role="form" id="ProductFrm">
+                                <div class="alert alert-success" style="display: none">تم اضافة الاستفسار</div>
+                                <input type="hidden" id="product_Id" ng-model="ProductId" value="@ViewBag.product.Id" />
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="txt_Name">الاسم</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="txt_Name" ng-model="UserName" placeholder="الاسم" data-validate="required" data-validate-type="required">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="txt_Email">البريد الالكترونى</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" ng-model="Email" id="txt_Email" placeholder="البريد الالكترونى" data-validate="required" data-validate-type="email">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="txt_Name">التليفون</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="txt_Name" ng-model="Mobile" placeholder="الاسم" data-validate="required" data-validate-type="required">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label style="clear:both;" class="col-sm-2 control-label" for="txt_Comment">السؤال</label>
+                                    <div class="col-sm-10">
+
+                                        <textarea id="txt_Comment" class="form-control" ng-model="Question" placeholder="السؤال" data-validate="required" data-validate-type="required"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-12">
+                                        <button type="submit" id="btnSave" ng-click="SaveEnquiry()" class="btn btn-default">أرسال</button>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div id="divWarning" class="col-sm-offset-3 col-sm-9 alert alert-danger invisible"></div>
+                                </div>
+
+
+
+                            </form>
+
+
+                        </div>
+                        List<Enquiry>
+                            enquiries = ProductController.GetProductEnquiries(ViewBag.product.Id);
+                        foreach (var enquiry in enquiries)
+                        {<div class="comment-block">
+                        <div class="comment" id="name"> @enquiry.UserName<span>@enquiry.Time.Date</span></div>
+                        <div class="comment" id="question">@enquiry.Question</div>
+
+                        <div class="comment" id="reply">
+                            @Html.Raw(enquiry.Replay)
+                        </div>
+                    </div>
+                        }
+
+                    }
+                </div>
+
+
+
+                <div class="product-details" id="content3">
+                    <h3 class="socend-title" style="background:#fff;color:#222 !important;margin-top:0px;">طرق الدفع</h3>
+                    <ul>
+
+                        @{
+                            List<GetWay> getways = GetWayController.GetAllGetWays();
+                            foreach (var getway in getways)
+                            {
+                        <li>
+                            <img src="@getway.ImageUrl" /><br />
+                            <h3> @getway.Name</h3>
+                            <p style="width:100%;word-break:break-all;">@Html.Raw(getway.Berif)</p>
+                        </li>
+
+                            }
+                        }
+                        <div style="clear:both;"></div>
+                    </ul>
+                    <h3 class="socend-title" style="background:#fff;border-top:1px dotted #444;color:#222;margin-top:20px;">طرق الشحن</h3>
+
+                    <ul>
+                        @{
+                            List<delivery> deliveries = ProductController.GetDeliveriesList();
+                            foreach (var delevery in deliveries)
+                            {
+                        <li style="padding-bottom:20px;margin-bottom:20px;">
+
+                            <div style="color: #544B91;margin:0;padding:0px 0px 5px 0px;border-bottom:1px solid #ddd;margin-bottom:10px "> @delevery.Name </div>
+                            التكلفة :  @delevery.Cost
+                        </li>
+                        <div style="clear:both;"></div>
+                            }
+                        }
+                    </ul>
+                </div>
+
+                <div class="product-details" id="content4">
+
+                    <script src="/Scripts/jquery.unobtrusive-ajax.js"></script>
+                    @if (Request.IsAuthenticated)
+                    {
+
+
+                        using (Ajax.BeginForm("SaveRates", "Product", new AjaxOptions { UpdateTargetId = "result" }))
+                        {
+
+                    <div id="result"></div>
+
+                    <input type="hidden" id="Rateproduct_Id" name="productId" value="@ViewBag.product.Id" />
+                    <div class="form-group">
+                        <div class="radio-inline">
+                            @Html.RadioButton("rate", "1", true,
+                                    new { id = "Is1" }) 1
+                        </div>
+                        <div class="radio-inline">
+                            @Html.RadioButton("rate", "2",
+                                    new { id = "Is2" }) 2
+                        </div>
+                        <div class="radio-inline">
+                            @Html.RadioButton("rate", "3",
+                                    new { id = "Is34" }) 3
+                        </div>
+                        <div class="radio-inline">
+                            @Html.RadioButton("rate", "4",
+                                    new { id = "Is4" }) 4
+                        </div>
+                        <div class="radio-inline">
+                            @Html.RadioButton("rate", "5",
+                                    new { id = "Is5" }) 5
+                        </div>
+                    </div>
+
+
+
+                    <button id="SaveRates" value="SaveRates" name="SaveRates" class="btn btn-default">حفظ</button>
+                        }
+                    }
+
+
+
+                    @{
+                        List<TwoProps> Rates = ProductController.FullRates(@ViewBag.product.Id);
+
+
+
+                    <div class="data" style="padding-top: 0px;">
+                        <div class="number" style="display:none;"></div>
+                        @{
+                                for (int i = 0; i < @Rates.Count; i++)
+                                {
+
+                                    int cout = Convert.ToInt32(Rates[i].Id);
+                                    for (int j = 0; j < cout; j++)
+                                    {
+                            @Html.Raw("<li>" + "<span></span></li>")
+
+                                    }
+
+                            @Rates[i].Name
+                                }
+                        }
+                    </div>
+
+                    }
+                </div>
+
+
+            </section>
+            <h3 style="background: #337ab7; color: #fff; padding: 10px 10px 10px 5px; font-weight: normal; "> قد ترغب ايضا فى شراء : </h3>
+            <div id="page-slider-container">
+                <div id="page-slider">
+
+                    <div id="prev">
+
+                        
+                    </div><!--arrow-->
+                    <div id="slide-image">
+                        <ul id="ul">
+                            @{
+                                List<Product> products = ProductController.GetRelatedProduct(@ViewBag.product.Id);
+
+
+                                foreach (var product in products)
+                                {
+                                    <li>
+                                        <a href="/Product/ProductView/@product.Id-@product.Name.ClearString()">
+                                            <h3>@product.Name</h3>
+                                            @{
+
+
+                                    var priceafter = product.SalePrice;
+                                    var priceaftrerPercent = product.DiscountPrice;
+                                    if (product.DiscountPrice > 0)
+                                    {
+                                        if (product.DiscountPercent)
+                                        {
+
+                                            priceafter = ViewBag.product.SalePrice - (priceaftrerPercent * (ViewBag.product.SalePrice) / 100);
+
+                                        }
+                                        else
+                                        {
+
+                                            priceaftrerPercent = 100 - (((ViewBag.product.SalePrice - priceaftrerPercent) / ViewBag.product.SalePrice) * 100);
+
+                                            priceafter = ViewBag.product.SalePrice - (priceaftrerPercent * (ViewBag.product.SalePrice) / 100);
+                                        }
+                                    }
+                                            }
+
+
+                                            @{
+                                    if (priceaftrerPercent > 0)
+                                    {
+                                        <span class="percent">
+                                            @priceaftrerPercent.ToString("#.##")%
+                                        </span>
+                                    }
+                                            }
+
+
+                                            <img src="@product.ImageUrl" alt="@product.Berif" />
+                                            <p>سعر المنتج : @priceafter.ToString("#.##") جنيه</p>
+
+
+
+
+
+                                        </a>
+
+                                    </li>
+
+                                }
+
+                            }
+
+
+                        </ul>
+                    </div><!--slide-image-->
+                    <div id="next">
+                        
+                    </div><!--arrow-->
+
+                </div>
+            </div>
+        </div>
+        </div>
+</div>
+
+<script type="text/javascript">
+    //$(document).ready(function () {
+    //    var number = parseInt($(".number").text());
+    //    for (i = 1; i <= number; i++) {
+    //        document.write("<li>" + "<span></span>" + $(".number").val() + "</li>");
+
+    //    }
+    //});
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        var index = 0;
+        var num = $("#slide-image").width() / 5.7;
+        $("#slide-image ul li").width(num);
+
+        var margin = parseFloat($("#slide-image ul li").css("marginLeft")) + parseFloat($("#slide-image ul li").css("marginRight")) + parseFloat(num * .08);
+        var animate = num + margin;
+        var imgnum = $("#ul li").length;
+        var setWidth = $("#ul li").width() * imgnum;
+        $("#slide-image ul").width(setWidth + parseFloat(0.5 * setWidth));
+        $(function () {
+            $("#next").click(function () {
+                if (index < imgnum - 5) {
+                    $("#slide-image ul li").animate({ right: "-=" + animate }, 1000);
+                    index++;
+                }
+            });
+            $("#prev").click(function () {
+                if (index > 0) {
+                    $("#slide-image ul li").animate({ right: "+=" + animate }, 1000);
+                    index--;
+                }
+            });
+
+        });
+    });
+</script>
+
+<script src="~/Scripts/Controllers/ProductCtrl.js"></script>
+
+

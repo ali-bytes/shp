@@ -1,0 +1,70 @@
+﻿@using Domain.EStore
+@using Ui.EStore.Controllers
+
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<div class="page-container">
+    <div class="page-container-wrap">
+        @section SeoRender{
+            @*<title> هنداوى : @ViewBag.title </title>*@
+
+
+
+        }
+
+        <div id="breadcrumb" style="padding: 12px 10px 8px 10px;" style="padding: 12px 10px 8px 10px;">
+            <span></span>
+            <a href="/Home">الصفحة الرئيسية</a><span class="span"></span><a href="/Product/AllProducts">المنتجات</a><span class="span"></span><a href="/Product/MainCategoryProduct/@ViewBag.product.MainCategoryId-@ViewBag.MainCategory">@ViewBag.MainCategory</a>
+
+
+        </div>
+
+
+        @{
+            List<Category> categories = ProductController.GetCategoriesByMainCategoryId(ViewBag.MainCategories.Id);
+            foreach (var category in categories)
+            {
+                @category.ImageUrl;
+
+            @category.Name;
+            }
+        }
+
+
+        @{
+            List<Product> Products = ProductController.GetProductsByMainCategoryId(ViewBag.MainCategories.Id);
+            foreach (var product in Products)
+            {
+                @product.Name
+                @product.ImageUrl
+                @product.Brand
+                @product.Id
+                if (product.DiscountPrice > 0)
+                {
+
+                    var priceafter = product.DiscountPrice == 0 ? 1 : product.DiscountPrice;
+                    if (product.DiscountPercent)
+                    {
+                        priceafter = priceafter * (product.SalePrice);
+                    }
+                    else
+                    {
+                        priceafter = product.SalePrice - priceafter;
+                    }
+                    <div class="databox">  <h3>بعد الخصم :</h3><span>@priceafter</span></div>
+                }
+                else
+                {
+                    @product.SalePrice
+                }
+
+            }
+        }
+    </div>
+</div>

@@ -1,0 +1,420 @@
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\obj\Debug\Ui.EStore.csproj.App.config
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\obj\Debug\Ui.EStore.csprojResolveAssemblyReference.cache
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Ui.EStore.dll.config
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Ui.EStore.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Ui.EStore.pdb
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Antlr3.Runtime.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Domain.EStore.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\DotNetOpenAuth.AspNet.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\DotNetOpenAuth.Core.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\DotNetOpenAuth.OAuth.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\DotNetOpenAuth.OpenId.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\EntityFramework.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\EntityFramework.SqlServer.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.Security.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.Security.Google.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Web.Infrastructure.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Web.WebPages.OAuth.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Newtonsoft.Json.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Owin.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Net.Http.Extensions.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Net.Http.Primitives.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Web.Helpers.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Web.Mvc.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Web.Optimization.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Web.Razor.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Web.WebPages.Deployment.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Web.WebPages.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Web.WebPages.Razor.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\WebGrease.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\WebMatrix.Data.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\WebMatrix.WebData.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Org.Mentalis.Security.Cryptography.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Mono.Math.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Domain.EStore.pdb
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\DotNetOpenAuth.AspNet.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\DotNetOpenAuth.Core.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\DotNetOpenAuth.OAuth.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\DotNetOpenAuth.OpenId.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Web.WebPages.OAuth.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Net.Http.Extensions.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Net.Http.Primitives.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Web.Helpers.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Web.Mvc.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Web.Optimization.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Web.Razor.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Web.WebPages.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Web.WebPages.Deployment.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\System.Web.WebPages.Razor.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Newtonsoft.Json.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Antlr3.Runtime.pdb
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\WebMatrix.Data.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\WebMatrix.WebData.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\EntityFramework.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\EntityFramework.SqlServer.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.Security.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.Security.Google.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Org.Mentalis.Security.Cryptography.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\bin\Mono.Math.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\obj\Debug\Ui.EStore.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Ui.EStore\obj\Debug\Ui.EStore.pdb
+E:\EStore\Ui.EStore\bin\Ui.EStore.dll.config
+E:\EStore\Ui.EStore\bin\Ui.EStore.dll
+E:\EStore\Ui.EStore\bin\Ui.EStore.pdb
+E:\EStore\Ui.EStore\bin\Antlr3.Runtime.dll
+E:\EStore\Ui.EStore\bin\Domain.EStore.dll
+E:\EStore\Ui.EStore\bin\DotNetOpenAuth.AspNet.dll
+E:\EStore\Ui.EStore\bin\DotNetOpenAuth.Core.dll
+E:\EStore\Ui.EStore\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\EStore\Ui.EStore\bin\DotNetOpenAuth.OAuth.dll
+E:\EStore\Ui.EStore\bin\DotNetOpenAuth.OpenId.dll
+E:\EStore\Ui.EStore\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\EStore\Ui.EStore\bin\EntityFramework.dll
+E:\EStore\Ui.EStore\bin\EntityFramework.SqlServer.dll
+E:\EStore\Ui.EStore\bin\Microsoft.AspNet.Identity.Core.dll
+E:\EStore\Ui.EStore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\EStore\Ui.EStore\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.dll
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.Security.Cookies.dll
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.Security.dll
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.Security.Facebook.dll
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.Security.Google.dll
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.Security.OAuth.dll
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.Security.Twitter.dll
+E:\EStore\Ui.EStore\bin\Microsoft.Web.Infrastructure.dll
+E:\EStore\Ui.EStore\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\EStore\Ui.EStore\bin\Newtonsoft.Json.dll
+E:\EStore\Ui.EStore\bin\Owin.dll
+E:\EStore\Ui.EStore\bin\System.Net.Http.Extensions.dll
+E:\EStore\Ui.EStore\bin\System.Net.Http.Primitives.dll
+E:\EStore\Ui.EStore\bin\System.Web.Helpers.dll
+E:\EStore\Ui.EStore\bin\System.Web.Mvc.dll
+E:\EStore\Ui.EStore\bin\System.Web.Optimization.dll
+E:\EStore\Ui.EStore\bin\System.Web.Razor.dll
+E:\EStore\Ui.EStore\bin\System.Web.WebPages.Deployment.dll
+E:\EStore\Ui.EStore\bin\System.Web.WebPages.dll
+E:\EStore\Ui.EStore\bin\System.Web.WebPages.Razor.dll
+E:\EStore\Ui.EStore\bin\WebGrease.dll
+E:\EStore\Ui.EStore\bin\WebMatrix.Data.dll
+E:\EStore\Ui.EStore\bin\WebMatrix.WebData.dll
+E:\EStore\Ui.EStore\bin\Org.Mentalis.Security.Cryptography.dll
+E:\EStore\Ui.EStore\bin\Mono.Math.dll
+E:\EStore\Ui.EStore\bin\Domain.EStore.pdb
+E:\EStore\Ui.EStore\bin\DotNetOpenAuth.AspNet.xml
+E:\EStore\Ui.EStore\bin\DotNetOpenAuth.Core.xml
+E:\EStore\Ui.EStore\bin\DotNetOpenAuth.OAuth.xml
+E:\EStore\Ui.EStore\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\EStore\Ui.EStore\bin\DotNetOpenAuth.OpenId.xml
+E:\EStore\Ui.EStore\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\EStore\Ui.EStore\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\EStore\Ui.EStore\bin\System.Net.Http.Extensions.xml
+E:\EStore\Ui.EStore\bin\System.Net.Http.Primitives.xml
+E:\EStore\Ui.EStore\bin\System.Web.Helpers.xml
+E:\EStore\Ui.EStore\bin\System.Web.Mvc.xml
+E:\EStore\Ui.EStore\bin\System.Web.Razor.xml
+E:\EStore\Ui.EStore\bin\System.Web.WebPages.xml
+E:\EStore\Ui.EStore\bin\System.Web.WebPages.Deployment.xml
+E:\EStore\Ui.EStore\bin\System.Web.WebPages.Razor.xml
+E:\EStore\Ui.EStore\bin\System.Web.Optimization.xml
+E:\EStore\Ui.EStore\bin\Newtonsoft.Json.xml
+E:\EStore\Ui.EStore\bin\Antlr3.Runtime.pdb
+E:\EStore\Ui.EStore\bin\WebMatrix.Data.xml
+E:\EStore\Ui.EStore\bin\WebMatrix.WebData.xml
+E:\EStore\Ui.EStore\bin\EntityFramework.xml
+E:\EStore\Ui.EStore\bin\EntityFramework.SqlServer.xml
+E:\EStore\Ui.EStore\bin\Microsoft.AspNet.Identity.Core.xml
+E:\EStore\Ui.EStore\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\EStore\Ui.EStore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.xml
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.Security.xml
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.Security.Facebook.xml
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.Security.Cookies.xml
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.Security.OAuth.xml
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.Security.Google.xml
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.Security.Twitter.xml
+E:\EStore\Ui.EStore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\EStore\Ui.EStore\bin\Org.Mentalis.Security.Cryptography.xml
+E:\EStore\Ui.EStore\bin\Mono.Math.xml
+E:\EStore\Ui.EStore\obj\Debug\Ui.EStore.csproj.App.config
+E:\EStore\Ui.EStore\obj\Debug\Ui.EStore.csprojResolveAssemblyReference.cache
+E:\EStore\Ui.EStore\obj\Debug\Ui.EStore.dll
+E:\EStore\Ui.EStore\obj\Debug\Ui.EStore.pdb
+D:\Shopping\Ui.EStore\bin\Ui.EStore.dll.config
+D:\Shopping\Ui.EStore\bin\Ui.EStore.dll
+D:\Shopping\Ui.EStore\bin\Ui.EStore.pdb
+D:\Shopping\Ui.EStore\bin\Antlr3.Runtime.dll
+D:\Shopping\Ui.EStore\bin\Domain.EStore.dll
+D:\Shopping\Ui.EStore\bin\DotNetOpenAuth.AspNet.dll
+D:\Shopping\Ui.EStore\bin\DotNetOpenAuth.Core.dll
+D:\Shopping\Ui.EStore\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Shopping\Ui.EStore\bin\DotNetOpenAuth.OAuth.dll
+D:\Shopping\Ui.EStore\bin\DotNetOpenAuth.OpenId.dll
+D:\Shopping\Ui.EStore\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Shopping\Ui.EStore\bin\EntityFramework.dll
+D:\Shopping\Ui.EStore\bin\EntityFramework.SqlServer.dll
+D:\Shopping\Ui.EStore\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Shopping\Ui.EStore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Shopping\Ui.EStore\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.dll
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.dll
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.Google.dll
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Shopping\Ui.EStore\bin\Microsoft.Web.Infrastructure.dll
+D:\Shopping\Ui.EStore\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Shopping\Ui.EStore\bin\Newtonsoft.Json.dll
+D:\Shopping\Ui.EStore\bin\Owin.dll
+D:\Shopping\Ui.EStore\bin\System.Net.Http.Extensions.dll
+D:\Shopping\Ui.EStore\bin\System.Net.Http.Primitives.dll
+D:\Shopping\Ui.EStore\bin\System.Web.Helpers.dll
+D:\Shopping\Ui.EStore\bin\System.Web.Mvc.dll
+D:\Shopping\Ui.EStore\bin\System.Web.Optimization.dll
+D:\Shopping\Ui.EStore\bin\System.Web.Razor.dll
+D:\Shopping\Ui.EStore\bin\System.Web.WebPages.Deployment.dll
+D:\Shopping\Ui.EStore\bin\System.Web.WebPages.dll
+D:\Shopping\Ui.EStore\bin\System.Web.WebPages.Razor.dll
+D:\Shopping\Ui.EStore\bin\WebGrease.dll
+D:\Shopping\Ui.EStore\bin\WebMatrix.Data.dll
+D:\Shopping\Ui.EStore\bin\WebMatrix.WebData.dll
+D:\Shopping\Ui.EStore\bin\Org.Mentalis.Security.Cryptography.dll
+D:\Shopping\Ui.EStore\bin\Mono.Math.dll
+D:\Shopping\Ui.EStore\bin\Domain.EStore.pdb
+D:\Shopping\Ui.EStore\bin\DotNetOpenAuth.AspNet.xml
+D:\Shopping\Ui.EStore\bin\DotNetOpenAuth.Core.xml
+D:\Shopping\Ui.EStore\bin\DotNetOpenAuth.OAuth.xml
+D:\Shopping\Ui.EStore\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Shopping\Ui.EStore\bin\DotNetOpenAuth.OpenId.xml
+D:\Shopping\Ui.EStore\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Shopping\Ui.EStore\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Shopping\Ui.EStore\bin\System.Net.Http.Extensions.xml
+D:\Shopping\Ui.EStore\bin\System.Net.Http.Primitives.xml
+D:\Shopping\Ui.EStore\bin\System.Web.Helpers.xml
+D:\Shopping\Ui.EStore\bin\System.Web.Mvc.xml
+D:\Shopping\Ui.EStore\bin\System.Web.Razor.xml
+D:\Shopping\Ui.EStore\bin\System.Web.WebPages.xml
+D:\Shopping\Ui.EStore\bin\System.Web.WebPages.Deployment.xml
+D:\Shopping\Ui.EStore\bin\System.Web.WebPages.Razor.xml
+D:\Shopping\Ui.EStore\bin\System.Web.Optimization.xml
+D:\Shopping\Ui.EStore\bin\Newtonsoft.Json.xml
+D:\Shopping\Ui.EStore\bin\Antlr3.Runtime.pdb
+D:\Shopping\Ui.EStore\bin\WebMatrix.Data.xml
+D:\Shopping\Ui.EStore\bin\WebMatrix.WebData.xml
+D:\Shopping\Ui.EStore\bin\EntityFramework.xml
+D:\Shopping\Ui.EStore\bin\EntityFramework.SqlServer.xml
+D:\Shopping\Ui.EStore\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Shopping\Ui.EStore\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Shopping\Ui.EStore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.xml
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.xml
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.Google.xml
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Shopping\Ui.EStore\bin\Org.Mentalis.Security.Cryptography.xml
+D:\Shopping\Ui.EStore\bin\Mono.Math.xml
+D:\Shopping\Ui.EStore\obj\Debug\Ui.EStore.csproj.App.config
+D:\Shopping\Ui.EStore\obj\Debug\Ui.EStore.csprojResolveAssemblyReference.cache
+D:\Shopping\Ui.EStore\obj\Debug\Ui.EStore.dll
+D:\Shopping\Ui.EStore\obj\Debug\Ui.EStore.pdb
+D:\projects\Shopping\Ui.EStore\bin\Ui.EStore.dll.config
+D:\projects\Shopping\Ui.EStore\bin\Ui.EStore.dll
+D:\projects\Shopping\Ui.EStore\bin\Ui.EStore.pdb
+D:\projects\Shopping\Ui.EStore\bin\Antlr3.Runtime.dll
+D:\projects\Shopping\Ui.EStore\bin\Domain.EStore.dll
+D:\projects\Shopping\Ui.EStore\bin\DotNetOpenAuth.AspNet.dll
+D:\projects\Shopping\Ui.EStore\bin\DotNetOpenAuth.Core.dll
+D:\projects\Shopping\Ui.EStore\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\projects\Shopping\Ui.EStore\bin\DotNetOpenAuth.OAuth.dll
+D:\projects\Shopping\Ui.EStore\bin\DotNetOpenAuth.OpenId.dll
+D:\projects\Shopping\Ui.EStore\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\projects\Shopping\Ui.EStore\bin\EntityFramework.dll
+D:\projects\Shopping\Ui.EStore\bin\EntityFramework.SqlServer.dll
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.AspNet.Identity.Core.dll
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.dll
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.Cookies.dll
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.dll
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.Facebook.dll
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.Google.dll
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.OAuth.dll
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.Twitter.dll
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Web.Infrastructure.dll
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\projects\Shopping\Ui.EStore\bin\Newtonsoft.Json.dll
+D:\projects\Shopping\Ui.EStore\bin\Owin.dll
+D:\projects\Shopping\Ui.EStore\bin\System.Net.Http.Extensions.dll
+D:\projects\Shopping\Ui.EStore\bin\System.Net.Http.Primitives.dll
+D:\projects\Shopping\Ui.EStore\bin\System.Web.Helpers.dll
+D:\projects\Shopping\Ui.EStore\bin\System.Web.Mvc.dll
+D:\projects\Shopping\Ui.EStore\bin\System.Web.Optimization.dll
+D:\projects\Shopping\Ui.EStore\bin\System.Web.Razor.dll
+D:\projects\Shopping\Ui.EStore\bin\System.Web.WebPages.Deployment.dll
+D:\projects\Shopping\Ui.EStore\bin\System.Web.WebPages.dll
+D:\projects\Shopping\Ui.EStore\bin\System.Web.WebPages.Razor.dll
+D:\projects\Shopping\Ui.EStore\bin\WebGrease.dll
+D:\projects\Shopping\Ui.EStore\bin\WebMatrix.Data.dll
+D:\projects\Shopping\Ui.EStore\bin\WebMatrix.WebData.dll
+D:\projects\Shopping\Ui.EStore\bin\Org.Mentalis.Security.Cryptography.dll
+D:\projects\Shopping\Ui.EStore\bin\Mono.Math.dll
+D:\projects\Shopping\Ui.EStore\bin\Domain.EStore.pdb
+D:\projects\Shopping\Ui.EStore\bin\DotNetOpenAuth.AspNet.xml
+D:\projects\Shopping\Ui.EStore\bin\DotNetOpenAuth.Core.xml
+D:\projects\Shopping\Ui.EStore\bin\DotNetOpenAuth.OAuth.xml
+D:\projects\Shopping\Ui.EStore\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\projects\Shopping\Ui.EStore\bin\DotNetOpenAuth.OpenId.xml
+D:\projects\Shopping\Ui.EStore\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\projects\Shopping\Ui.EStore\bin\System.Net.Http.Extensions.xml
+D:\projects\Shopping\Ui.EStore\bin\System.Net.Http.Primitives.xml
+D:\projects\Shopping\Ui.EStore\bin\System.Web.Helpers.xml
+D:\projects\Shopping\Ui.EStore\bin\System.Web.Mvc.xml
+D:\projects\Shopping\Ui.EStore\bin\System.Web.Razor.xml
+D:\projects\Shopping\Ui.EStore\bin\System.Web.WebPages.xml
+D:\projects\Shopping\Ui.EStore\bin\System.Web.WebPages.Deployment.xml
+D:\projects\Shopping\Ui.EStore\bin\System.Web.WebPages.Razor.xml
+D:\projects\Shopping\Ui.EStore\bin\System.Web.Optimization.xml
+D:\projects\Shopping\Ui.EStore\bin\Newtonsoft.Json.xml
+D:\projects\Shopping\Ui.EStore\bin\Antlr3.Runtime.pdb
+D:\projects\Shopping\Ui.EStore\bin\WebMatrix.Data.xml
+D:\projects\Shopping\Ui.EStore\bin\WebMatrix.WebData.xml
+D:\projects\Shopping\Ui.EStore\bin\EntityFramework.xml
+D:\projects\Shopping\Ui.EStore\bin\EntityFramework.SqlServer.xml
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.AspNet.Identity.Core.xml
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.xml
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.xml
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.Facebook.xml
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.Cookies.xml
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.OAuth.xml
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.Google.xml
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.Twitter.xml
+D:\projects\Shopping\Ui.EStore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\projects\Shopping\Ui.EStore\bin\Org.Mentalis.Security.Cryptography.xml
+D:\projects\Shopping\Ui.EStore\bin\Mono.Math.xml
+D:\projects\Shopping\Ui.EStore\obj\Debug\Ui.EStore.csproj.App.config
+D:\projects\Shopping\Ui.EStore\obj\Debug\Ui.EStore.csprojResolveAssemblyReference.cache
+D:\projects\Shopping\Ui.EStore\obj\Debug\Ui.EStore.dll
+D:\projects\Shopping\Ui.EStore\obj\Debug\Ui.EStore.pdb
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Ui.EStore.dll.config
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Ui.EStore.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Ui.EStore.pdb
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Antlr3.Runtime.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Domain.EStore.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\DotNetOpenAuth.AspNet.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\DotNetOpenAuth.Core.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\DotNetOpenAuth.OAuth.Consumer.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\DotNetOpenAuth.OAuth.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\DotNetOpenAuth.OpenId.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\EntityFramework.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\EntityFramework.SqlServer.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.Security.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.Security.Google.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Web.Infrastructure.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Web.WebPages.OAuth.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Newtonsoft.Json.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Owin.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Net.Http.Extensions.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Net.Http.Primitives.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Web.Helpers.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Web.Mvc.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Web.Optimization.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Web.Razor.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Web.WebPages.Deployment.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Web.WebPages.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Web.WebPages.Razor.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\WebGrease.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\WebMatrix.Data.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\WebMatrix.WebData.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Org.Mentalis.Security.Cryptography.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Mono.Math.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Domain.EStore.pdb
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\DotNetOpenAuth.AspNet.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\DotNetOpenAuth.Core.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\DotNetOpenAuth.OAuth.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\DotNetOpenAuth.OAuth.Consumer.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\DotNetOpenAuth.OpenId.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Web.WebPages.OAuth.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Net.Http.Extensions.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Net.Http.Primitives.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Web.Helpers.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Web.Mvc.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Web.Razor.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Web.WebPages.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Web.WebPages.Deployment.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Web.WebPages.Razor.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\System.Web.Optimization.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Newtonsoft.Json.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Antlr3.Runtime.pdb
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\WebMatrix.Data.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\WebMatrix.WebData.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\EntityFramework.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\EntityFramework.SqlServer.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.Security.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.Security.Google.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Org.Mentalis.Security.Cryptography.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\bin\Mono.Math.xml
+F:\Projects\Shopping-30-5-2015\Ui.EStore\obj\Debug\Ui.EStore.csproj.App.config
+F:\Projects\Shopping-30-5-2015\Ui.EStore\obj\Debug\Ui.EStore.csprojResolveAssemblyReference.cache
+F:\Projects\Shopping-30-5-2015\Ui.EStore\obj\Debug\Ui.EStore.dll
+F:\Projects\Shopping-30-5-2015\Ui.EStore\obj\Debug\Ui.EStore.pdb

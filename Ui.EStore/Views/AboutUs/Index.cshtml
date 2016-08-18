@@ -1,0 +1,28 @@
+﻿@using Domain.EStore
+@using Ui.EStore.Controllers
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section SeoRender{
+    <title> هنداوى : من نحن </title>
+}
+
+<div id="about">
+    <div id="breadcrumb" style="padding: 12px 10px 8px 10px;" style="padding: 12px 10px 8px 10px;">
+              <span></span>
+              <a href="/Home">الصفحة الرئيسية</a><span class="span"></span><a href="/AboutUs/">من نحن</a>
+
+
+          </div>
+    @{
+        HomeDetail about = AboutUsController.AboutUsDetails();
+        <h3>@about.Title</h3>
+        <img src=" @about.ImageUrl " />
+       
+        <div class="p">@Html.Raw(about.Details)</div>
+
+
+
+    }
+</div>

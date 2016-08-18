@@ -1,0 +1,50 @@
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Domain.EStore\bin\Debug\Domain.EStore.dll.config
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Domain.EStore\bin\Debug\Domain.EStore.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Domain.EStore\bin\Debug\Domain.EStore.pdb
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Domain.EStore\bin\Debug\EntityFramework.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Domain.EStore\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Domain.EStore\bin\Debug\EntityFramework.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Domain.EStore\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Domain.EStore\obj\Debug\Domain.EStore.dll
+c:\users\mohamed\documents\visual studio 2013\Projects\EStore\Domain.EStore\obj\Debug\Domain.EStore.pdb
+C:\Users\Mohamed\Documents\Visual Studio 2013\Projects\EStore\Domain.EStore\obj\Debug\Domain.EStore.csprojResolveAssemblyReference.cache
+E:\EStore\Domain.EStore\bin\Debug\Domain.EStore.dll.config
+E:\EStore\Domain.EStore\bin\Debug\Domain.EStore.dll
+E:\EStore\Domain.EStore\bin\Debug\Domain.EStore.pdb
+E:\EStore\Domain.EStore\bin\Debug\EntityFramework.dll
+E:\EStore\Domain.EStore\bin\Debug\EntityFramework.SqlServer.dll
+E:\EStore\Domain.EStore\bin\Debug\EntityFramework.xml
+E:\EStore\Domain.EStore\bin\Debug\EntityFramework.SqlServer.xml
+E:\EStore\Domain.EStore\obj\Debug\Domain.EStore.dll
+E:\EStore\Domain.EStore\obj\Debug\Domain.EStore.pdb
+E:\EStore\Domain.EStore\obj\Debug\Domain.EStore.csprojResolveAssemblyReference.cache
+D:\Shopping\Domain.EStore\bin\Debug\Domain.EStore.dll.config
+D:\Shopping\Domain.EStore\bin\Debug\Domain.EStore.dll
+D:\Shopping\Domain.EStore\bin\Debug\Domain.EStore.pdb
+D:\Shopping\Domain.EStore\bin\Debug\EntityFramework.dll
+D:\Shopping\Domain.EStore\bin\Debug\EntityFramework.SqlServer.dll
+D:\Shopping\Domain.EStore\bin\Debug\EntityFramework.xml
+D:\Shopping\Domain.EStore\bin\Debug\EntityFramework.SqlServer.xml
+D:\Shopping\Domain.EStore\obj\Debug\Domain.EStore.csprojResolveAssemblyReference.cache
+D:\Shopping\Domain.EStore\obj\Debug\Domain.EStore.dll
+D:\Shopping\Domain.EStore\obj\Debug\Domain.EStore.pdb
+D:\projects\Shopping\Domain.EStore\bin\Debug\Domain.EStore.dll.config
+D:\projects\Shopping\Domain.EStore\bin\Debug\Domain.EStore.dll
+D:\projects\Shopping\Domain.EStore\bin\Debug\Domain.EStore.pdb
+D:\projects\Shopping\Domain.EStore\bin\Debug\EntityFramework.dll
+D:\projects\Shopping\Domain.EStore\bin\Debug\EntityFramework.SqlServer.dll
+D:\projects\Shopping\Domain.EStore\bin\Debug\EntityFramework.xml
+D:\projects\Shopping\Domain.EStore\bin\Debug\EntityFramework.SqlServer.xml
+D:\projects\Shopping\Domain.EStore\obj\Debug\Domain.EStore.csprojResolveAssemblyReference.cache
+D:\projects\Shopping\Domain.EStore\obj\Debug\Domain.EStore.dll
+D:\projects\Shopping\Domain.EStore\obj\Debug\Domain.EStore.pdb
+F:\Projects\Shopping-30-5-2015\Domain.EStore\bin\Debug\Domain.EStore.dll.config
+F:\Projects\Shopping-30-5-2015\Domain.EStore\bin\Debug\Domain.EStore.dll
+F:\Projects\Shopping-30-5-2015\Domain.EStore\bin\Debug\Domain.EStore.pdb
+F:\Projects\Shopping-30-5-2015\Domain.EStore\bin\Debug\EntityFramework.dll
+F:\Projects\Shopping-30-5-2015\Domain.EStore\bin\Debug\EntityFramework.SqlServer.dll
+F:\Projects\Shopping-30-5-2015\Domain.EStore\bin\Debug\EntityFramework.xml
+F:\Projects\Shopping-30-5-2015\Domain.EStore\bin\Debug\EntityFramework.SqlServer.xml
+F:\Projects\Shopping-30-5-2015\Domain.EStore\obj\Debug\Domain.EStore.csprojResolveAssemblyReference.cache
+F:\Projects\Shopping-30-5-2015\Domain.EStore\obj\Debug\Domain.EStore.dll
+F:\Projects\Shopping-30-5-2015\Domain.EStore\obj\Debug\Domain.EStore.pdb
